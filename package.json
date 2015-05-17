@@ -1,0 +1,27 @@
+{
+  "name": "sweet-compose",
+  "version": "1.0.0",
+  "description": "Sweet js macro for function composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metaraine/sweet-compose"
+  },
+  "keywords": [
+    "sweetjs",
+    "sweet",
+    "compose",
+    "function",
+    "composition",
+    "macro"
+  ],
+  "author": "Raine Lourie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metaraine/sweet-compose/issues"
+  },
+  "homepage": "https://github.com/metaraine/sweet-compose"
+}
