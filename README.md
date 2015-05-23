@@ -6,8 +6,6 @@
 
 ## Usage
 
-### command line
-
 ```sh
 $ npm install --save sweet-compose
 $ sjs -m sweet-compose myfile.js
