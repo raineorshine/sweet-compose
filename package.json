@@ -2,9 +2,9 @@
   "name": "sweet-compose",
   "version": "2.0.0",
   "description": "Sweet js macro for function composition",
-  "main": "index.js",
+  "main": "index.sjs",
   "scripts": {
-    "test": "mkdir test && sjs --module ./index.js test-src/spec.js > test/spec.js && mocha ; rm -rf test"
+    "test": "mkdir test && sjs --module ./index.sjs test-src/spec.js > test/spec.js && mocha ; rm -rf test"
   },
   "repository": {
     "type": "git",
