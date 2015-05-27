@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/metaraine/sweet-compose/issues"
   },
-  "homepage": "https://github.com/metaraine/sweet-compose"
+  "homepage": "https://github.com/metaraine/sweet-compose",
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3"
+  }
 }
