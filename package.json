@@ -1,6 +1,6 @@
 {
   "name": "sweet-compose",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Sweet js macro for function composition",
   "main": "index.js",
   "scripts": {
