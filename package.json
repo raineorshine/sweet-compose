@@ -4,16 +4,19 @@
   "description": "Sweet js macro for function composition",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mkdir test && sjs --module ./index.js test-src/spec.js > test/spec.js && mocha ; rm -rf test"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/metaraine/sweet-compose"
   },
   "keywords": [
+    "sweet macros",
     "sweetjs",
+    "sweet.js",
     "sweet",
     "compose",
+    "sequence",
     "function",
     "composition",
     "macro"
@@ -25,9 +28,8 @@
   },
   "homepage": "https://github.com/metaraine/sweet-compose",
   "devDependencies": {
-    "coffee-script": "^1.9.2",
-    "gulp": "^3.8.11",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.3"
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5",
+    "sweet.js": "^0.7.4"
   }
 }

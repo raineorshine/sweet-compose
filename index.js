@@ -1,13 +1,24 @@
 // Sweet.js v0.7.4
 
-macro compose {
+macro (+.) {
   rule infix {
-    $outer:expr | $inner:expr
+    $one:expr | $two:expr
   } => {
     function() {
-        return $outer($inner.apply(this, arguments));
+        return $one($two.apply(this, arguments));
     }
   }
 }
 
-export compose
+macro (+|) {
+  rule infix {
+    $one:expr | $two:expr
+  } => {
+    function() {
+        return $two($one.apply(this, arguments));
+    }
+  }
+}
+
+export (+.)
+export (+|)
